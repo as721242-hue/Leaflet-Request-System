@@ -1,0 +1,66 @@
+name: "📝 衛教單張請領單"
+description: "各單位請領衛教單張專用網頁表單"
+title: "[請領] "
+labels: []
+body:
+  - type: input
+    id: unit
+    attributes:
+      label: "🏥 申請單位"
+      placeholder: "例如：5A病房、急診..."
+    validations:
+      required: true
+  - type: input
+    id: applicant_info
+    attributes:
+      label: "👤 請領人姓名與分機"
+      placeholder: "例如：王小明 / 分機 1234"
+    validations:
+      required: true
+  - type: input
+    id: item_1
+    attributes:
+      label: "單張名稱 (1)"
+      placeholder: "請填寫需要請領的單張名稱"
+    validations:
+      required: true
+  - type: dropdown
+    id: qty_1
+    attributes:
+      label: "數量 (1)"
+      options:
+        - "30張"
+        - "60張"
+    validations:
+      required: true
+  - type: input
+    id: item_2
+    attributes:
+      label: "單張名稱 (2)"
+      placeholder: "請填寫單張名稱 (若無可留白)"
+  - type: dropdown
+    id: qty_2
+    attributes:
+      label: "數量 (2)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_3
+    attributes:
+      label: "單張名稱 (3)"
+      placeholder: "請填寫單張名稱 (若無可留白)"
+  - type: dropdown
+    id: qty_3
+    attributes:
+      label: "數量 (3)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: textarea
+    id: notes
+    attributes:
+      label: "📝 備註 / 特殊需求"
+      description: "如有急件或其他說明請填寫在這裡"
