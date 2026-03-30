@@ -3,6 +3,12 @@ description: "各單位請領衛教單張專用網頁表單"
 title: "[請領] "
 labels: []
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📖 找不到單張名稱或編號嗎？
+        👉 **[點擊這裡開啟「衛教單張總目錄」對照表](../../)** *(建議點擊右鍵「在新分頁開啟」，看著編號填寫最不容易出錯喔！單次最高可請領 10 種)*
+        ---
   - type: input
     id: unit
     attributes:
@@ -20,8 +26,8 @@ body:
   - type: input
     id: item_1
     attributes:
-      label: "單張名稱 (1)"
-      placeholder: "請填寫需要請領的單張名稱"
+      label: "單張編號或名稱 (1)"
+      placeholder: "例如：A001 或 戒菸指南"
     validations:
       required: true
   - type: dropdown
@@ -36,8 +42,8 @@ body:
   - type: input
     id: item_2
     attributes:
-      label: "單張名稱 (2)"
-      placeholder: "請填寫單張名稱 (若無可留白)"
+      label: "單張編號或名稱 (2)"
+      placeholder: "若無可留白"
   - type: dropdown
     id: qty_2
     attributes:
@@ -49,12 +55,103 @@ body:
   - type: input
     id: item_3
     attributes:
-      label: "單張名稱 (3)"
-      placeholder: "請填寫單張名稱 (若無可留白)"
+      label: "單張編號或名稱 (3)"
+      placeholder: "若無可留白"
   - type: dropdown
     id: qty_3
     attributes:
       label: "數量 (3)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_4
+    attributes:
+      label: "單張編號或名稱 (4)"
+      placeholder: "若無可留白"
+  - type: dropdown
+    id: qty_4
+    attributes:
+      label: "數量 (4)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_5
+    attributes:
+      label: "單張編號或名稱 (5)"
+      placeholder: "若無可留白"
+  - type: dropdown
+    id: qty_5
+    attributes:
+      label: "數量 (5)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_6
+    attributes:
+      label: "單張編號或名稱 (6)"
+      placeholder: "若無可留白"
+  - type: dropdown
+    id: qty_6
+    attributes:
+      label: "數量 (6)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_7
+    attributes:
+      label: "單張編號或名稱 (7)"
+      placeholder: "若無可留白"
+  - type: dropdown
+    id: qty_7
+    attributes:
+      label: "數量 (7)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_8
+    attributes:
+      label: "單張編號或名稱 (8)"
+      placeholder: "若無可留白"
+  - type: dropdown
+    id: qty_8
+    attributes:
+      label: "數量 (8)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_9
+    attributes:
+      label: "單張編號或名稱 (9)"
+      placeholder: "若無可留白"
+  - type: dropdown
+    id: qty_9
+    attributes:
+      label: "數量 (9)"
+      options:
+        - "無"
+        - "30張"
+        - "60張"
+  - type: input
+    id: item_10
+    attributes:
+      label: "單張編號或名稱 (10)"
+      placeholder: "若無可留白"
+  - type: dropdown
+    id: qty_10
+    attributes:
+      label: "數量 (10)"
       options:
         - "無"
         - "30張"
