@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ### 📖 找不到單張名稱或編號嗎？
-        👉 **[點擊這裡開啟「衛教單張總目錄」對照表](../../)** *(建議點擊右鍵「在新分頁開啟」，看著編號填寫最不容易出錯喔！單次最高可請領 10 種)*
+        👉 **[點擊這裡開啟「衛教單張總目錄」對照表](https://docs.google.com/spreadsheets/d/e/2PACX-1vQSUa7J_iBeb3iqdAebhPcD4EmCmMCXWt1hcdTxKjGLs661QLHdjADhBbffiF-Wabip-8JB1Pa2_KqF/pubhtml?gid=1011173847&single=true)** *(建議點擊右鍵「在新分頁開啟」，看著編號填寫最不容易出錯喔！單次最高可請領 10 種)*
         ---
   - type: input
     id: unit
